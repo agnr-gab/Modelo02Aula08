@@ -16,7 +16,7 @@ public class Lista06Ex08 {
         int valorDigitadoPeloUsuario = 0;
 
         while (contador <= totalDeNumeros) {
-            System.out.println("Por favor, digite o número " + contador + " :");
+            System.out.println("Por favor, digite o " + contador + "° número:");
             valorDigitadoPeloUsuario = leitor.nextInt();
 
             // Verificando se o valor é maior do que 0

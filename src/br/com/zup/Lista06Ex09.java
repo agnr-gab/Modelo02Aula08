@@ -24,7 +24,7 @@ public class Lista06Ex09 {
         }
         while (contadorDeExibicao >= finalDeExibicao) {
             System.out.println(numeros.get(contadorDeExibicao));
-            contadorDeExibicao --;
+            contadorDeExibicao--;
         }
     }
 }

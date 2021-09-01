@@ -17,10 +17,11 @@ public class Lista06Ex03 {
         if (numeroTabuada <= 0 || numeroTabuada > 10) {
             System.out.println("Insira um número válido entre 1 e 10");
             numeroTabuada = leitorTabuada.nextInt();
+        }
+        System.out.println("Tabuada do nº" + numeroTabuada + ":");
         for (int N = 1; N <= 10; N++) {
             System.out.println(numeroTabuada + " x " + N + " = " + numeroTabuada * N);
-
-            }
         }
     }
 }
+

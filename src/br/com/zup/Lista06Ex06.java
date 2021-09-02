@@ -6,7 +6,9 @@ public class Lista06Ex06 {
         int impar;
         int contador;
 
-
+        for (contador = 1; contador == 50; contador += 2); {
+        System.out.println(contador);
+        contador ++;}
 
 
 

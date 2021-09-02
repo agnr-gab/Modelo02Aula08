@@ -15,10 +15,10 @@ public class Lista06Ex05 {
         while (contador <= qtdNumeros) {
             System.out.println("Digite o " + contador + " numero:");
             entradaNumero = leitorMaior.nextInt();
-        if (entradaNumero > maiorNumero)
-            maiorNumero = entradaNumero;
+            if (entradaNumero > maiorNumero)
+                maiorNumero = entradaNumero;
             contador++;
         }
-        System.out.println("O maior número digitado é " +maiorNumero+ ".");
+        System.out.println("O maior número digitado é " + maiorNumero + ".");
     }
 }
